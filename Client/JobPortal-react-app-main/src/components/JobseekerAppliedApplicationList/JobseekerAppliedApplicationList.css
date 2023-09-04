@@ -1,0 +1,95 @@
+/* JobseekerAppliedApplicationList.css */
+
+.applied-jobs-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.jobseekerAppliedApplicationList-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.applied-jobs-header {
+  text-align: center;
+  margin: 1rem 0;
+  border: #007bff solid 2px;
+  border-radius: 10rem;
+}
+
+.status-buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.status-buttons button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin: 0 10px;
+  transition: background-color 0.3s ease;
+}
+
+.status-buttons button:hover {
+  background-color: #0056b3;
+}
+
+.applied-job {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.applied-job h3 {
+  margin-top: 0;
+}
+
+.applied-job p {
+  margin: 5px 0;
+}
+
+.applied-job .withdraw-button {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.applied-job .withdraw-button:hover {
+  background-color: #c82333;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .applied-jobs-container {
+    padding: 10px;
+  }
+
+  .applied-job {
+    padding: 15px;
+  }
+
+  .status-buttons {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .status-buttons button {
+    margin: 5px 0;
+  }
+
+  .applied-job .withdraw-button {
+    padding: 6px 12px;
+  }
+}

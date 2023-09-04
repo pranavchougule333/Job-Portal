@@ -1,0 +1,108 @@
+/* Styling for the jobseekerProfile container */
+.jobseekerProfile {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #f9f9f9;
+    border-radius: 15px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);    
+    margin-top: 50px;
+}
+
+/* Styling for the header */
+.jobseekerProfile-header {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #3498db;
+    font-size: 32px;
+}
+
+/* Styling for the profile image */
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, z-index 0.3s; /* Add transition for z-index */
+}
+
+.profile-image:hover {
+    transform: translateX(-50%) scale(1.1);
+    z-index: 1;
+}
+
+/* Styling for the profile information sections */
+.jobseekerProfile-profile-information {
+    margin-bottom: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.jobseekerProfile-profile-section-header {
+    color: #3498db;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+/* Styling for the individual profile details */
+.jobseekerProfile-profile-details {
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: #333;
+}
+
+/* Styling for the "Remove Profile" button */
+.jobseekerProfile  button {
+    background-color: #0073b1;
+    color: #ffffff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 3px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.jobseekerProfile  button:hover {
+    background-color:  hsl(6, 83%, 42%);
+}
+
+/* Additional styling for list items */
+.jobseekerProfile-profile-information ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.jobseekerProfile-profile-information ul li {
+    margin-bottom: 8px;
+    font-size: 18px;
+    color: #555;
+}
+
+.jobseekerProfile-header-img-holder {
+    padding: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+/* Hover effect for profile details */
+.jobseekerProfile-profile-details:hover {
+    font-weight: bold;
+    color: #e74c3c; /* Change color on hover */
+    transition: all 0.3s;
+}
+
+.jobseeker-profile-get-resume a {
+    text-decoration: none;
+    color: #fff;
+}
+/* Media query for responsive design */
+@media (max-width: 600px) {
+    .jobseekerProfile {
+        padding: 20px;
+    }
+}

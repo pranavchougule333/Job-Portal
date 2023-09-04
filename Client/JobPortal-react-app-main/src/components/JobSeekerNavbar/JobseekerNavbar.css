@@ -1,0 +1,42 @@
+.navBar{
+    background-color:#F1EFEA;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 30px;
+    text-align: center;
+    width: 95%;
+    margin: auto;
+}
+.logo{
+    width: 90px;
+}
+.navList{
+    display: flex;
+    gap: 2rem;
+    list-style: none ;
+    margin: 20px;
+
+    align-items: center;
+}
+ .navItems a{
+    font-size: large;
+    text-decoration: none;
+    color: black;
+}
+.navItems a:hover{
+    border-bottom: solid rgb(3, 87, 9);
+}
+
+.signout_btn{
+    text-decoration: none;
+    color: black;
+    border: none;
+}
+.profileImg{
+    width:40px !important;
+}
+/* .navItems.active {
+    text-decoration: underline;
+    border-bottom: solid rgb(3, 87, 9);
+} */

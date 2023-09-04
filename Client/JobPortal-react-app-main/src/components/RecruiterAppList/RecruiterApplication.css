@@ -1,0 +1,78 @@
+
+  .Rapplicationcontainer {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .Rapplicationcontainer h2{
+    font-size: 25px;
+  }
+  .Rapplication {
+    height: 150px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .Rapplication h3 {
+    margin: 0;
+  }
+  
+  .Rapplication-info {
+    flex: 1;
+  }
+  
+  .Rapplication-info p {
+    margin: 5px 0;
+  }
+  
+  .R_button-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  
+  .Rbutton {
+    background-color: #28a745; /* Green color */
+    color: #fff;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 5px 0;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .Rbutton.download {
+    background-color: #007bff; /* Blue color */
+  }
+  
+  .Rbutton.shortlist {
+    background-color: #ffc107; /* Yellow color */
+  }
+  
+  .Rbutton.reject {
+    background-color: #dc3545; /* Red color */
+  }
+  
+  .Rbutton:hover {
+   color: red;/* Darker green color on hover */
+   background-color: wheat;
+  }
+  .status-accepted {
+    color: green;
+    font-weight: bold;
+}
+
+.status-rejected {
+    color: red;
+    font-weight: bold;
+}

@@ -1,0 +1,60 @@
+/* UpdateSkills.css */
+
+.updateSkills-dropdown-wrapper {
+    display: flex;
+    flex-direction: column;
+    /* width: 60%; */
+    margin: 1rem auto 0;
+  }
+  
+  .updateSkills-selected-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 8px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .selected-item {
+    display: flex;
+    align-items: center;
+    padding: 4px;
+    background-color: #e0e0e0;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+  }
+  
+  .updateSkills-remove-symbol {
+    margin-left: 8px;
+    cursor: pointer;
+  }
+  
+  .updateSkills-dropdown {
+    margin-top: 8px;
+  }
+  
+  .updateSkills-dropdown select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+  }
+  
+  .updateSkills-dropdown button {
+    margin-top: 8px;
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 1rem 0;
+  }
+  
+  .updateSkills-dropdown button:hover {
+    background-color: #0056b3;
+  }
+  

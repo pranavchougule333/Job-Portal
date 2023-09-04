@@ -1,0 +1,41 @@
+.navBar{
+    background-color:#F1EFEA;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 30px;
+    text-align: center;
+    width: 95%;
+    margin: auto;
+}
+.logo{
+    width: 90px;
+}
+.navList{
+    display: flex;
+    gap: 2rem;
+    list-style: none ;
+    margin: 20px;
+
+}
+ .navItems a{
+    font-size: large;
+    text-decoration: none;
+    color: black;
+    border: none;
+    color: red;
+}
+.navItems a:hover{
+    border-bottom: solid rgb(3, 87, 9);
+}
+.signout_btn{
+    text-decoration: none;
+    color: black;
+    border: none;
+}
+
+/* .navItems.active {
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+ */

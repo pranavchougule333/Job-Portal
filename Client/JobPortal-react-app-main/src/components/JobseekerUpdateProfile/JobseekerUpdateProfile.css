@@ -1,0 +1,32 @@
+.jobseekerUpdateProfile {
+    width: 60%;
+    padding: 2rem;
+    margin: 0 auto;
+}
+
+.jobseekerUpdateProfile h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+.jobseekerUpdateProfile  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+.jobseekerUpdateProfile  button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+.jobseekerUpdateProfile  button:hover {
+    background-color: #0056b3;
+  }
+  

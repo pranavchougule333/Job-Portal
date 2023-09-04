@@ -1,0 +1,54 @@
+  
+ .applicationList-container h3, .applicationList-container p,.applicationList-container button {
+    font-size: 18px;
+  }
+  
+  .applicationList-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  .applicationList-application {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .applicationList-application h3 {
+    margin: 0;
+    color: #333;
+  }
+  
+  .applicationList-application-info {
+    margin-top: 1rem 0;
+  }
+  
+  .applicationList-application-info p {
+    margin: 5px;
+  }
+  
+  .applicationList-salary {
+    font-weight: bold;
+  }
+  
+  .applicationList-date {
+    color: #777;
+  }
+  
+  .applicationList-application-btn {
+    display: inline-block;
+    padding: 8px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .applicationList-rm-application-btn:hover {
+    background-color: #0056b3;
+  }
+  
